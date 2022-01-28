@@ -2,15 +2,79 @@
 
 
 /* change the font family and spacing as per your project font */
+#table{
+	border-collapse: collapse;
+}
+tr{
+	height:40px;
+	border:1px solid black;
+}
+.batsman{
+	width:200px;
+	padding-left:13px;
+}
+a{
+	text-decoration:none;
+	color:blue;
+}
+
+.empty{
+	width:300px;
+}
+.R,.B,.fs,.ss,.SR{
+	width:84px;
+}
+
+#totalInnings{
+	display:flex;
+    justify-content: space-between;
+	align-items: center;
+	padding-left:13px;
+	padding-right:10px;
+	height:40px;
+	background-color: orangered;
+	color:white;
+	width:897px;
+}
+
+h1,#vs{
+	margin-left:80px;
+}
+#vs{
+	font-size:25px;
+	margin-top:0px;
+	
+}
+#scoreTable{
+	background-color:white;
+	height:440px;
+	width:920px;
+	position:absolute;
+	margin-left:80px;
+	margin-top:20px;
+}
 .footer{
     display:flex;
     flex-direction: row;
     align-content: flex-end;
 	position: relative;
-	top: 750px;
 	margin-left: 80px;
 	font-size: 18px;
 	font-family: Nunito Sans;
     font-style: normal;
-    
+	width:200px;
+}
+#cricpro{
+	display:flex;
+	justify-content: flex-end;
+	margin-right:50px;
+	margin-top:20px;
+}
+#picture{
+	display:flex;
+	justify-content: flex-end;
+}
+#scoreTable{
+	margin-left:80px;
+	font-size:20px;
 }
